@@ -33,8 +33,23 @@ print(two_lists)
 #
 # print(random_list)
 
+def append_list(my_list: list):
+    my_list.append('test')
+    return my_list
 
-def int_list[a: int, b: int, c: int, d: int] -> int:
-    return a + b + c + d
+print(append_list(['one', 2, 3, 4]))
 
-print int_list[1, 2, 3, 4]
+
+# def numeral_list([a: int, b: int, c: int]) -> int:
+#     for elem in numeral_list:
+#         print(a+b+c)
+#
+# print(numeral_list([1, 2, 3]))
+
+def sum_list(my_list: list) -> int:
+    result = 0
+    for elem in my_list:
+        result = result + elem
+    return result
+
+print(sum_list([1, 2, 3]))
