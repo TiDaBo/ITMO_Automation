@@ -68,7 +68,7 @@ def status(year: int) -> str:
     else:
         print('Введите корректный год обучения')
 
-status(1)
+status(9)
 
 
 # Задача:
