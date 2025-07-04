@@ -58,9 +58,14 @@ more_than_ten(15.5, c = 11, b = -25)
 # Найти количество положительных чисел среди них.
 
 def count_positive(five_num_list: list):
-    return len([item for item in five_num_list if item>0])
+    count = 0
+    for item in five_num_list:
+        if item>0:
+            count += 1
+    return count
 
-print(count_positive([-1, -5, 3.5, 7, 0]))
+print(count_positive([1, -5, 3.5, 7, 0]))
+
 
 
 # 7. Функция на вход получает 2 переменные. a. Кол-во лет (int) b. Кол-во месяцев (int)
