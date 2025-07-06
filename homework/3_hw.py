@@ -11,14 +11,23 @@ max_num(156, 13)
 # 3. Функция на вход получает два произвольных числа.
 # Вывести в консоль “yes”, если они отличаются друг от друга на 135, иначе вывести на экран “No”
 
+# def differ_on_135(a: int, b: int):
+#     if a + 135 == b or b + 135 == a:
+#         print('Yes')
+#     else:
+#         print('No')
+#
+# differ_on_135(5, 140)
+# differ_on_135(138, 3)
+# differ_on_135(-35, 100)
+# differ_on_135(7, -14)
+
 def differ_on_135(a: int, b: int):
-    if a + 135 == b or b + 135 == a:
+    if abs(a - b) == 135:
         print('Yes')
     else:
         print('No')
 
-differ_on_135(5, 140)
-differ_on_135(138, 3)
 differ_on_135(-35, 100)
 differ_on_135(7, -14)
 
