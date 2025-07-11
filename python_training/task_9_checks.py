@@ -8,3 +8,13 @@
 # from название файла(без расширения) import название класса
 # d. переделайте все 4 класса в файле task_9_oop_1.py так чтоб в объектах можно было использовать методы родительского класса
 # e. распечатайте в консоль результаты метода .check_text() вызванного от каждого объекта классов файла task_9_oop_1.py
+from msvcrt import locking
+
+
+class Checks:
+
+    def __init__(self, loc):
+        self.loc = loc
+
+    def check_text(self):
+        return self.loc
