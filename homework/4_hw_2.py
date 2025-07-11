@@ -15,15 +15,29 @@ class Car:
         self.type = type
         self.year = year
 
-    def launch(self):
+    def start(self):
+        print('Автомобиль заведен')
 
-    def shut(self):
+    def stop(self):
+        print('Автомобиль заглушен')
 
     def year_of(self):
+        print(f'Автомобиль { self.year } года выпуска')
 
     def car_type(self):
+        print(f'Тип автомобиля: { self.type}')
 
     def car_color(self):
+        print(f'Цвет автомобиля: {self.color}')
+
+
+buick_8 = Car('синий', 'седан', 1954)
+
+buick_8.start()
+buick_8.stop()
+buick_8.year_of()
+buick_8.car_type()
+buick_8.car_color()
 
 
 
