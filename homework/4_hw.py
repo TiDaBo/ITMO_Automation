@@ -58,10 +58,10 @@ class Math:
     def subtraction(self):
         print(self.a - self.b)
 
-addition((2, 8))
-multiplication(Math(5, 4))
-division(Math(13, 2))
-subtraction(Math(25, 87))
+Math(2, 8).addition()
+Math(5, 4).multiplication()
+Math(13, 2).division()
+Math(25, 87).subtraction()
 
 
 # 3. откройте страницу https://demoqa.com/text-box
@@ -77,6 +77,45 @@ subtraction(Math(25, 87))
 # c. вызовите “Клик” для каждой кнопки
 
 
+class Sidebar:
+
+    def __init__(self, text, type, loc):
+        self.text = text
+        self.type = type
+        self.loc = loc
+
+    def click(self):
+        print(f'Клик по кнопке { self.text }')
 
 
+text_box_button = Sidebar('Text Box', 'Кнопка', '')
+check_box_button = Sidebar('Check Box', 'Кнопка', '')
+radio_button = Sidebar('Radio Button', 'Кнопка', '')
+web_tables_button = Sidebar('Web Tables', 'Кнопка', '')
+buttons_button = Sidebar('Buttons', 'Кнопка', '')
+links_button = Sidebar('Links', 'Кнопка', '')
+broken_links_button = Sidebar('Broken Links - Images', 'Кнопка', '')
+up_and_download_button = Sidebar('Upload and Download', 'Кнопка', '')
+dyn_prop_button = Sidebar('Dynamic Properties', 'Кнопка', '')
 
+
+print(text_box_button.text)
+print(check_box_button.text)
+print(radio_button.text)
+print(web_tables_button.text)
+print(buttons_button.text)
+print(links_button.text)
+print(broken_links_button.text)
+print(up_and_download_button.text)
+print(dyn_prop_button.text)
+
+
+text_box_button.click()
+check_box_button.click()
+radio_button.click()
+web_tables_button.click()
+buttons_button.click()
+links_button.click()
+broken_links_button.click()
+up_and_download_button.click()
+dyn_prop_button.click()
