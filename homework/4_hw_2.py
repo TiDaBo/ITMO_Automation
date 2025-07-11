@@ -28,7 +28,7 @@ class Car:
         print(f'Тип автомобиля: { self.type}')
 
     def car_color(self):
-        print(f'Цвет автомобиля: {self.color}')
+        print(f'Цвет автомобиля: { self.color}')
 
 
 buick_8 = Car('синий', 'седан', 1954)

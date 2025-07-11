@@ -76,7 +76,6 @@ Math(25, 87).subtraction()
 # b. выведите текст для каждой кнопки
 # c. вызовите “Клик” для каждой кнопки
 
-
 class Sidebar:
 
     def __init__(self, text, type, loc):
