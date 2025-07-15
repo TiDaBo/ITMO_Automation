@@ -21,5 +21,4 @@ def find_saucedemo_elements():
 
     if text_field_username and text_field_pass and submit_button:
         print('Элементы найдены')
-    else:
-        print('Элементы не найдены')
+
