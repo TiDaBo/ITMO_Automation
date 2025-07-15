@@ -40,9 +40,6 @@ def task_func(a=(1, 2, 3, 4)):
 print(task_func())
 
 
-# def square(radius, pi=3.14159):
-#    return pi * radius^2
-
 def compute_surface(radius, pi=3.14159):
     return pi * radius * radius
 

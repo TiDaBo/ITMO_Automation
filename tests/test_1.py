@@ -1,7 +1,7 @@
 def test_passing():
     assert (1, 2, 3) == (1, 2, 3)
 
-
+# Закомментили заведомо падающий тест
 # def test_fail():
 #     assert 'test' == 'testing'
 

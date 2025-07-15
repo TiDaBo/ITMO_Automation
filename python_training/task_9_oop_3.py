@@ -7,21 +7,6 @@
 # создайте 2 объекта, с добавкой и без;
 # вызовите метод show_my_drink() для каждого объекта.
 
-# class Soda:
-#     def __init__(self, add):
-#         self.add = add
-#
-#     def show_my_drink(self):
-#         if self.add == True:
-#             print('Газировка и {}').format(self.add)
-#         else:
-#             print('Обычная газировка')
-#
-# soda = Soda(None)
-# soda_strawberry = Soda('клубника')
-#
-# soda.show_my_drink()
-# soda_strawberry.show_my_drink()
 
 class Soda:
 
